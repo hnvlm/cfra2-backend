@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fabricantes",
+  "info": {
+    "name": "Fabricante"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    }
+  }
+}
